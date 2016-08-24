@@ -1,0 +1,10 @@
+{
+    "scaler" : {
+
+    },
+
+    "watcher" : {
+	"wfarner/aws-bootstrap" : {},
+	"wfarner/scaler" : {}
+    }
+}
