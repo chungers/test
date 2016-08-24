@@ -1,8 +1,7 @@
 {
     "scaler" : {
-
+      "count" : 4
     },
-
     "watcher" : {
 	"wfarner/aws-bootstrap" : {},
 	"wfarner/scaler" : {}
