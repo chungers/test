@@ -1,9 +1,15 @@
 {
     "scaler" : {
-      "count" : 5
+	"count" : 5
+    },
+    "loadbalancer" : {
+	"vhosts" : {
+	    "foo.com" : "TestELB",
+	    "bar.com" : "InternalELB"
+	}
     },
     "watcher" : {
-	"wfarner/aws-bootstrap" : {},
-	"wfarner/scaler" : {}
+	"docker4x/controller" : "loadbalancer",
+	"wfarner/tokenserver" : null,
     }
 }
