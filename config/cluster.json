@@ -1,6 +1,6 @@
 {
     "scaler" : {
-	"count" : 6
+	"count" : 7
     },
     "loadbalancer" : {
 	"vhosts" : {
