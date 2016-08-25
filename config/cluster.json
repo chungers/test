@@ -5,7 +5,7 @@
             "name" : "aws",
             "image" : "docker4x/scaler",
             "properties" : {
-                "InstanceType" : "m4-xlarge",
+                "InstanceType" : "m4-xlarge"
             }
         }
     },
