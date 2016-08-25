@@ -1,6 +1,6 @@
 {
     "workers" : {
-        "count" : 4,
+        "count" : 3,
         "driver" : {
             "name" : "aws",
             "image" : "docker4x/scaler",
