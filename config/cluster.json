@@ -8,9 +8,9 @@
                 "InstanceType" : "m4-xlarge"
             }
         }
-    },
+    }
 
-    "loadbalancer" : {
+    "address" : {
         "driver" : {
             "name" : "aws",
             "image" : "docker4x/controller",
