@@ -1,15 +1,25 @@
 {
-    "scaler" : {
-	"count" : 3
+    "workers" : {
+        "count" : 3,
+        "driver" : {
+            "name" : "aws",
+            "image" : "docker4x/scaler",
+            "properties" : {
+                "InstanceType" : "m4-xlarge",
+            }
+        }
     },
+
     "loadbalancer" : {
-	"vhosts" : {
-	    "foo.com" : "TestELB",
-	    "bar.com" : "InternalELB"
-	}
-    },
-    "watcher" : {
-	"docker4x/controller" : "loadbalancer",
-	"wfarner/tokenserver" : null
+        "driver" : {
+            "name" : "aws",
+            "image" : "docker4x/controller",
+            "properties" : {
+                "vhosts" : {
+                    "foo.com" : "TestELB",
+                    "bar.com" : "InternalELB"
+                }
+            }
+        }
     }
 }
