@@ -10,6 +10,7 @@
     },
     "watcher" : {
 	"docker4x/controller" : "loadbalancer",
-	"wfarner/tokenserver" : null
+	"wfarner/tokenserver" : null,
+	"chungers/aws-bootstrap" : null
     }
 }
