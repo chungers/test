@@ -1,6 +1,6 @@
 {
     "scaler" : {
-	"count" : 7
+	"count" : 3
     },
     "loadbalancer" : {
 	"vhosts" : {
@@ -10,7 +10,6 @@
     },
     "watcher" : {
 	"docker4x/controller" : "loadbalancer",
-	"wfarner/tokenserver" : null,
-	"chungers/aws-bootstrap" : null
+	"wfarner/tokenserver" : null
     }
 }
