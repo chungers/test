@@ -1,5 +1,5 @@
 {
-    "ClusterName": "bill-testing2",
+    "ClusterName": "bill-testing3",
     "Driver": "aws",
     "Groups": {
         "Managers": {
